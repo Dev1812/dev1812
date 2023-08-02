@@ -1,0 +1,46 @@
+html, body{margin:0;}
+*{font: 17px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;box-sizing: border-box;}
+a{text-decoration: none;color: blue}
+.head_center{text-align: center;padding:34px 0 74px;}
+
+.head_owner_full_name{font-size:24px}
+.footer_center{text-align: center;padding:34px 0 74px;}
+
+.footer_owner_full_name{font-size:24px}
+
+.owner_photo{background-image: url('../image/03fPl38into (2).jpg');
+    width: 310px;
+    height: 310px;
+    background-size: cover;
+    border-radius: 69px;
+    margin: 0 auto;
+    z-index: 9;
+    position: relative;
+    border: 1px solid #CCC;}
+
+.owner_full_name{text-align: center;margin-top:14px;font-weight: bold;}
+
+.about_me_block{}
+
+.content{/*width: 30%;margin:0 auto;*/}
+
+.about_me_line{margin:19px 0;}
+
+.about_me_line__title{font-weight: bold;}
+
+.art_block_photo{width: 100%;height: 310px;border-radius:9px}
+
+
+.nav{border-bottom: 1px solid #CCC;text-align: center;padding:14px 0;}
+.nav_item{padding:9px 5px;}
+.nav_item:hover{border-bottom: 2px solid blue}
+.nav_item_active{border-bottom: 2px solid blue}
+
+
+.photo_cover{background-position: center;background-size: cover;}
+.art_block_title{font-weight: bold;margin-bottom: 9px;margin-top:9px;font-size:19px}
+
+.art_block{width: 33.3333333333%;display: inline-block;margin:-2.3px;vertical-align: top}
+
+
+.art_block_wrap{padding:9px;}
