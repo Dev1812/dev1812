@@ -1,4 +1,9 @@
 html, body{margin:0;}
+@media only screen and (max-width: 960px){
+.wrap2{width: 100%!important;padding:0 24px!important;}
+img{width: 100%!important}
+.art_block{width: 100%!important}
+}
 *{font: 17px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;box-sizing: border-box;}
 a{text-decoration: none;color: blue}
 .head_center{text-align: center;padding:34px 0 74px;}
@@ -7,7 +12,9 @@ a{text-decoration: none;color: blue}
 .footer_center{text-align: center;padding:34px 0 74px;}
 
 .footer_owner_full_name{font-size:24px}
+.wrap2{width: 50%;margin:0 auto}
 
+.wrap3{width: 80%;margin:79px auto}
 .owner_photo{background-image: url('../image/03fPl38into (2).jpg');
     width: 310px;
     height: 310px;
@@ -18,7 +25,7 @@ a{text-decoration: none;color: blue}
     position: relative;
     border: 1px solid #CCC;}
 
-.owner_full_name{text-align: center;margin-top:14px;font-weight: bold;}
+.owner_full_name{text-align: center;margin-top:14px;font-weight: bold;font-size:21px}
 
 .about_me_block{}
 
